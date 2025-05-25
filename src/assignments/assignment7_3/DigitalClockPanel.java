@@ -64,8 +64,8 @@ public class DigitalClockPanel extends JPanel implements Runnable {
 
         int x = (w - timeStr)/2;
 
-        g.setFont(font);
         g.setColor(color);
+        g.setFont(font);
         g.drawString(timeString,x,h/2);
         g.setFont(fontDate);
         g.drawString(dateString,x,h/2 + fm.getHeight());
